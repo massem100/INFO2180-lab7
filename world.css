@@ -41,9 +41,9 @@ body>header {
 
 }
 
-#lookup{
+.btn{
     margin: 0px 5px 5px 0px;
-    width: 80px;
+    width: 150px;
     height: 35px;
     padding: 5px 5px 5px 5px;
     background-color: rgb(15, 78, 107);
@@ -53,10 +53,20 @@ body>header {
 #controls {
     margin: 10px 10px 0px 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
     height: inherit;
+    align-items:center;
      
+}
+#input-div{
+    flex-direction:row;
+}
+#div-buttons{
+    flex-direction: row;
+}
+#lookup-cities{
+    background-color: #afeeee;
 }
 
 #result {
