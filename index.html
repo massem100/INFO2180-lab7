@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
         <meta charset="utf-8">
 		<title>World Database Lookup</title>
@@ -9,22 +9,27 @@
 
 		<!-- you write this -->
 		<script src="world.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
 	</head>
 
 	<body>
-		<header>
+		<header >
 			<h1>World Database Lookup</h1>
 		</header>
 
 		<main>
 			<div id="controls">
 				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
+				<input id="country" type="search" name="country" placeholder="Enter country name" action="" method="GET" />
 				<button id="lookup">Lookup</button>
 			</div>
+			<br/>
 			
 			<div id="result">
 				<!-- countries will appear here -->
+				
 			</div>
 		</main>
 
